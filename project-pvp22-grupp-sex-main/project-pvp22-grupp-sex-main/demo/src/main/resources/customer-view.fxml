@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="440.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GUI.CustomerViewController">
+    <children>
+        <ScrollPane prefHeight="364.0" prefWidth="600.0" vbarPolicy="ALWAYS">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="362.0" prefWidth="584.0">
+                    <children>
+                        <TableView fx:id="customerTable" layoutX="-1.0" prefHeight="362.0" prefWidth="585.0">
+                            <columns>
+                                <TableColumn fx:id="cu_name" prefWidth="185.0" text="Product" />
+                                <TableColumn fx:id="cu_quantity" minWidth="0.0" prefWidth="100.0" text="Amount" />
+                                <TableColumn fx:id="cu_price" prefWidth="100.0" text="Price" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Text layoutX="21.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Pay:" underline="true" />
+        <Label fx:id="toPayField" layoutX="94.0" layoutY="363.0" prefHeight="80.0" prefWidth="505.0" />
+    </children>
+</AnchorPane>

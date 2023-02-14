@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GUI.ScannerViewController">
+    <children>
+        <TextField fx:id="barcodeScan" layoutX="75.0" layoutY="62.0" onAction="#addProductToSale" promptText="Barcode" />
+    </children>
+</AnchorPane>
